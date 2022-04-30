@@ -9,14 +9,14 @@ class linearsearch{
         n=sc.nextInt();
         a=new int[n];
         for(int i=0;i<n;i++){
-            System.out.println("Enter the element: ");
+            System.out.print("Enter the element: ");
             a[i]=sc.nextInt();
         }
         System.out.println("Enter the element to be searched: ");
         ele=sc.nextInt();
         for(int i=0;i<n;i++){
             if(a[i]==ele){
-                System.out.println("ELEMENT FOUND.");
+                System.out.println("ELEMENT FOUND AT INDEX."+(i+1));
                 f=1;
             }
         }
