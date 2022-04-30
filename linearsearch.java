@@ -18,6 +18,7 @@ class linearsearch{
             if(a[i]==ele){
                 System.out.println("ELEMENT FOUND AT INDEX."+(i+1));
                 f=1;
+                break;
             }
         }
         if(f==0){
