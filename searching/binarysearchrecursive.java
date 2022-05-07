@@ -8,7 +8,7 @@ class binarysearchrecursive
         {
             return -1;
         }
-        else if(ele == a[mid])
+        else if(ele== a[mid])
         {
             return mid;
         }
