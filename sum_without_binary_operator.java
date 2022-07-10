@@ -20,7 +20,6 @@ class sum_without_binary_operator
         a = sc.nextInt();
         System.out.println("Enter another number: ");
         b = sc.nextInt();
-        //add ob = new add();
         System.out.println("The sum of two numbers = " +add(a,b));
     }
 }
